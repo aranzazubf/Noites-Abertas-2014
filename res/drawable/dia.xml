@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:cacheColorHint="@android:color/transparent" android:drawable="@drawable/sab13" android:state_selected="true" android:textColor="#392348"/>
+    <item android:cacheColorHint="@android:color/transparent" android:drawable="@drawable/sab6" android:state_focused="true"/>
+    <item android:cacheColorHint="@android:color/transparent" android:drawable="@drawable/sab13"/>
+
+</selector>

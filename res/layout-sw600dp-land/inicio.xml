@@ -1,0 +1,280 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fuentes="http://schemas.android.com/apk/res/com.aranzazu.appnoites14"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:orientation="vertical" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_inicio1"
+            android:text="@string/inicio1"
+            fuentes:fuente="Museo" />
+
+    
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio2"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo2"
+            android:text="@string/inicio2b"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio3"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo2"
+            android:text="@string/inicio3b"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio4"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo2"
+            android:clickable="true"
+            android:onClick="inicio1"
+            android:text="@string/inicio4b"
+            android:textColorLink="@color/Black"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio5"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo2"
+            android:text="@string/inicio5b"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio6"
+            fuentes:fuente="Museo"/>
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo2"
+            android:text="@string/inicio6b"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio7"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio8"
+            fuentes:fuente="Museo" />
+    <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio9"
+            fuentes:fuente="Museo" />
+        
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo"
+            android:text="@string/inicio10"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo2"
+            android:text="@string/inicio10b"
+            fuentes:fuente="Museo" />
+
+       <LinearLayout
+    android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp" 
+            android:orientation="horizontal">
+            <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo_small"
+            android:text="@string/inicio11"
+            fuentes:fuente="Museo" />
+               <ImageView
+                    android:onClick="compartir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sharena" >
+                </ImageView>
+</LinearLayout>
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_inicio1"
+            android:gravity="center"
+            android:text="AVISOS IMPORTANTES" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp" >
+
+            <TableRow android:layout_width="wrap_content" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/cero" />
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/aviso0"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/uno" >
+                </ImageView>
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:text="@string/aviso1"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/dos" >
+                </ImageView>
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:text="@string/aviso2"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tres" />
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:text="@string/aviso3"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cuatro" >
+                </ImageView>
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:text="@string/aviso4"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cinco" >
+                </ImageView>
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:text="@string/aviso5"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/seis" >
+                </ImageView>
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:text="@string/aviso6"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/siete" >
+                </ImageView>
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:text="@string/aviso7"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <!-- cambiar foto para ocho -->
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ocho" >
+                </ImageView>
+
+                <com.aranzazu.appnoites14.CustomTextView
+                    style="@style/texto_subtitulo2avisos"
+                    android:layout_width="wrap_content"
+                    android:text="@string/aviso8"
+                    fuentes:fuente="Museo" />
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>

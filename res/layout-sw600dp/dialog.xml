@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fuentes="http://schemas.android.com/apk/res/com.aranzazu.appnoites14"
+    android:id="@+id/dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/folleto"
+    android:orientation="vertical" >
+
+    <!-- si falla esta aqui era drawable -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/text_d1"
+            style="@style/texto_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/text_d2"
+            style="@style/texto_normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:gravity="left"
+            android:textColor="#efb3ca"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:autoLink="web"
+            android:linksClickable="true"
+            fuentes:fuente="Museo" />
+    </LinearLayout>
+
+</LinearLayout>

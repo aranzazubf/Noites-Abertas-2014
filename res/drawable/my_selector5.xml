@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:background="@null" android:drawable="@drawable/colabora3" android:state_selected="true"/>
+    <item android:background="@null" android:drawable="@drawable/colabora2" android:state_pressed="true"/>
+    <item android:drawable="@drawable/colabora1"/>
+
+</selector>

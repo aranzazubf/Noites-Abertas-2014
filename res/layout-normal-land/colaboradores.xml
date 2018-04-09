@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fuentes="http://schemas.android.com/apk/res/com.aranzazu.appnoites14"
+    android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_marginLeft="20dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_inicio1_small"
+            android:text="@string/col2"
+            android:textStyle="bold"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+             style="@style/texto_subtitulo_small"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col3"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_normal_col"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col4"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+             style="@style/texto_subtitulo_small"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col5"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_normal_col"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col6"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+              style="@style/texto_subtitulo_small"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col7"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_normal_col"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col8"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+             style="@style/texto_subtitulo_small"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col9"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_normal_col"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col10"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_inicio1_small"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col11a"
+            
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_subtitulo_small"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col11"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            style="@style/texto_normal_col"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/col12"
+            android:textColor="@color/Black"
+            android:textColorLink="@color/Black"
+            fuentes:fuente="Museo" />
+    </LinearLayout>
+
+</ScrollView>

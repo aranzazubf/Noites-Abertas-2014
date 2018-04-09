@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fuentes="http://schemas.android.com/apk/res/com.aranzazu.appnoites14"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <com.aranzazu.appnoites14.CustomTextView
+                android:id="@+id/line_a"
+                style="@style/texto_subtitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                fuentes:fuente="Myriad" />
+
+            <ImageView
+                android:id="@+id/ic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/ic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <com.aranzazu.appnoites14.CustomTextView
+                android:id="@+id/line_ab"
+                style="@style/texto_subtitulo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Data:"
+                android:textColor="#808080"
+                android:textSize="12sp"
+                fuentes:fuente="Myriad" />
+
+            <com.aranzazu.appnoites14.CustomTextView
+                android:id="@+id/line_b"
+                style="@style/texto_subtitulo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                fuentes:fuente="Museo" />
+        </TableRow>
+
+        <TableRow>
+
+            <com.aranzazu.appnoites14.CustomTextView
+                android:id="@+id/line_c"
+                style="@style/texto_subtitulo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="En:"
+                android:textColor="#808080"
+                android:textSize="12sp"
+                fuentes:fuente="Museo" />
+
+            <com.aranzazu.appnoites14.CustomTextView
+                android:id="@+id/line_d"
+                style="@style/texto_subtitulo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="lugar"
+                android:textColor="#392348"
+                android:textSize="12sp"
+                fuentes:fuente="Museo" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

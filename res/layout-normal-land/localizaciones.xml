@@ -1,0 +1,252 @@
+<!-- android:layout_margin=" -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fuentes="http://schemas.android.com/apk/res/com.aranzazu.appnoites14"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+     android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical" >
+
+ <com.aranzazu.appnoites14.CustomTextView
+                style="@style/texto_titulo_small"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="@string/localizaciones1"
+                android:textColor="@color/Black"
+                fuentes:fuente="Museo" />
+        
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*">
+
+ <TableRow
+     android:id="@+id/TableRow01"
+     android:layout_weight="1"
+     android:gravity="center"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" >
+
+           
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc7"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="35dp"
+            android:clickable="true"
+            android:text="@string/localizaciones3"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc6"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones10"
+            fuentes:fuente="Museo" />
+
+</TableRow>
+ <TableRow
+     android:layout_weight="1"
+     android:gravity="center"
+                android:id="@+id/TableRow02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc3"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones4"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc2"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:text="@string/localizaciones2"
+            fuentes:fuente="Museo" />
+</TableRow>
+ <TableRow
+     android:layout_weight="1"
+     android:gravity="center"
+                android:id="@+id/TableRow02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc13"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones13"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc1"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:text="@string/localizaciones6"
+            fuentes:fuente="Museo" />
+
+</TableRow>
+ <TableRow
+     android:layout_weight="1"
+     android:gravity="center"
+                android:id="@+id/TableRow03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc11"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones12"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc5"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones14"
+            fuentes:fuente="Museo" />
+
+        </TableRow>
+ <TableRow
+     android:layout_weight="1"
+     android:gravity="center"
+                android:id="@+id/TableRow04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc8"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones7"
+            fuentes:fuente="Museo" />
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc10"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones11"
+            fuentes:fuente="Museo" />
+
+</TableRow>
+ <TableRow
+     android:layout_weight="1"
+     android:gravity="center"
+                android:id="@+id/TableRow05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc14"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones5"
+            fuentes:fuente="Museo" />
+
+        </TableRow>
+<TableRow
+    android:layout_weight="1"
+     android:gravity="center"
+                android:id="@+id/TableRow06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc9"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:clickable="true"
+            android:text="@string/localizaciones8"
+            fuentes:fuente="Museo" />
+
+</TableRow>
+<TableRow
+              android:layout_weight="1"
+     android:gravity="center"
+                android:id="@+id/TableRow07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+        <com.aranzazu.appnoites14.CustomTextView
+            android:id="@+id/loc4"
+            style="@style/texto_subtitulo4"
+            android:layout_width="wrap_content"
+            android:text="@string/localizaciones9"
+            fuentes:fuente="Museo" />
+
+</TableRow>
+  </TableLayout>
+        </FrameLayout>
+      <!--   
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <com.google.android.maps.MapView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/mapview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               android:apiKey="AIzaSyDWU0wUYe2VCKShc3jwuccF_IZekX1qPpo"
+                android:clickable="true" /> 
+        </FrameLayout>-->
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="332dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_margin="5dp"
+            android:orientation="horizontal" >
+
+            <com.aranzazu.appnoites14.CustomTextView
+                android:id="@+id/loc18"
+                style="@style/texto_subtitulo4"
+                android:layout_gravity="center_horizontal"
+               
+                android:clickable="true"
+                android:onClick="mapa"
+                android:text="Ver Localizacións de Noites Abertas nun mapa máis grande"
+                fuentes:fuente="Mu" />
+        </FrameLayout>
+      
+   </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fuentes="http://schemas.android.com/apk/res/com.aranzazu.appnoites14"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:orientation="horizontal" >
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <com.aranzazu.appnoites14.CustomTextView
+                android:id="@+id/line_ap"
+                style="@style/texto_subtitulo_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               
+               
+                fuentes:fuente="Museo" />
+
+            <com.aranzazu.appnoites14.CustomTextView
+                android:id="@+id/line_bp"
+                style="@style/texto_subtitulo_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:ellipsize="marquee"
+                android:focusableInTouchMode="true"
+               
+                fuentes:fuente="Museo" />
+
+            <ImageView
+                android:id="@+id/icp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/icp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
